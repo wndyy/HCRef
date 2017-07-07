@@ -128,7 +128,7 @@
 
 <div class="row"><div class="col-md-8">
 
-<p><strong>Remarque :</strong> Le bureau est fermé. L'ACIA n'approuve plus au préalable les matériaux de construction, les matériaux d'emballage, les produits chimiques non alimentaires et les vêtements de travail. La Liste de référence demeure disponible sur le site Web de l'ACIA à titre de référence seulement. Comme la liste nest plus maintenue, il incombe aux utilisateurs de vérifier lexactitude des renseignements auprès des fabricants. </p>
+<p><strong>Remarque :</strong> L'ACIA n'approuve plus au préalable les matériaux de construction, les matériaux d'emballage, les produits chimiques non alimentaires et les vêtements de travail. La Liste de référence demeure disponible sur le site Web de <a href="https://www.canada.ca/fr.html">Canada.ca</a> à titre de référence seulement. Comme la liste n’est plus maintenue, il incombe aux utilisateurs de vérifier l’exactitude des renseignements auprès des fabricants. </p>
 
 <p>&nbsp;</p>
 <!-- beginning of Dropdown list scripts -->
