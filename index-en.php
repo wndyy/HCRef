@@ -126,7 +126,9 @@
 
 <div class="row"><div class="col-md-8 pull-left mrgn-bttm-lg">
 
-<p><strong>Note:</strong> The office is closed. The CFIA no longer pre-approves construction materials, packaging materials, non-food chemicals and working apparel. The reference listing continues to be available on the CFIA website as a reference only. As the list is no longer maintained, it is up to users to verify the accuracy of the information with manufacturers. </p>
+<p><strong>Note:</strong> 
+	The CFIA no longer pre-approves construction materials, packaging materials, non-food chemicals and working apparel. The reference listing continues to be available on the <a href="https://www.canada.ca/en.html">Canada.ca</a> website as a reference only. As the list is no longer maintained, it is up to users to verify the accuracy of the information with manufacturers.
+	</p>
 
 <p>&nbsp;</p>
 <!-- beginning of Dropdown list scripts -->
