@@ -1,29 +1,31 @@
 // JavaScript Document
 
+
+
 $(document).ready(function(){
     $('#category').on('change',function(){
         var categoryID = $(this).val();
 	    if(categoryID){
             $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
 				data:'category_id='+categoryID,
 				success:function(html){
                 	if(categoryID!='SelectAll'){
 					$('#subcategory').html(html);	
-                    $('#displayresults').html('Sélectionner une sous-catégorie'); 
+                    $('#displayresults').html('Select subcategory'); 
 					}
 					else
 					{
-					$('#subcategory').html('<option value="">Sélectionner tout</option>');		
+					$('#subcategory').html('<option value="">Select All</option>');		
 					$('#displayresults').html(html); 
 					}
 					
                 }
             }); 
         }else{
-            $('#subcategory').html('<option value="">Sélectionner une catégorie en premier</option>');
-            $('#displayresults').html('<option value="">Sélectionner la sous-catégorie en premier</option>'); 
+            $('#subcategory').html('<option value="">Select category first</option>');
+            $('#displayresults').html('<option value="">Select subcategory first</option>'); 
         }
     });
     
@@ -33,7 +35,7 @@ $(document).ready(function(){
         if(subcategoryID){
             $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
                 data:{'subcategory_id':subcategoryID,'page_id':+pageID},
 			    success:function(html){
 				$('#displayresults').html(html);
@@ -53,7 +55,7 @@ $(document).ready(function(){
         if(subcategoryID){
             $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
                 data:{'subcategory_id':subcategoryID,'page_id':+pageID},
 			    success:function(html){
 				$('#displayresults').html(html);
@@ -73,10 +75,10 @@ $(document).ready(function(){
 		if(categoryIDAll){
 			 $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
 				data:'category_id='+categoryIDAll,
 				success:function(html){
-					$('#subcategory').html('<option value="">Sélectionner tout</option>');		
+					$('#subcategory').html('<option value="">Select All</option>');		
 					$('#displayresults').html(html); 
 				}
 				
@@ -85,8 +87,8 @@ $(document).ready(function(){
 			
 		}
 		else{
-            $('#subcategory').html('<option value="">Sélectionner une catégorie en premier</option>');
-            $('#displayresults').html('<option value="">Sélectionner la sous-catégorie en premier</option>'); 
+            $('#subcategory').html('<option value="">Select category first</option>');
+            $('#displayresults').html('<option value="">Select subcategory first</option>'); 
         }
 		
 		
@@ -97,14 +99,37 @@ $(document).ready(function(){
 		
 		var SubCatLimit=SubCatLimit;
 		var ProductLimit=ProductLimit;
-		var pageID=pageID
+		var pageID=pageID;
 		if(SubCatLimit || ProductLimit){
 			 $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
 				data:{'subCat_limit_next':+SubCatLimit,'product_limit_next':+ProductLimit, 'page_id':+pageID},
 				success:function(html){
-					$('#subcategory').html('<option value="">Sélectionner tout</option>');		
+					$('#subcategory').html('<option value="">Select All</option>');		
+					$('#displayresults').html(html); 
+				}
+				
+				});
+				
+			
+		}
+	}
+	
+	
+	function SelectAllSubNextPage(CategoryID, SubCatLimit,ProductLimit, pageID) {
+		
+		var SubCatLimit=SubCatLimit;
+		var ProductLimit=ProductLimit;
+		var pageID=pageID;
+		var CategoryID=CategoryID;
+		if(SubCatLimit || ProductLimit || CategoryID){
+			 $.ajax({
+                type:'POST',
+                url:'ajaxData.php',
+				data:{'category_SubSelectAll_ID':+CategoryID,'subCat_selectall_next':+SubCatLimit,'product_SubSelectAll_next':+ProductLimit, 'page_subSelectAll_id':+pageID},
+				success:function(html){
+					$('#subcategory').html('<option value="">Select All</option>');		
 					$('#displayresults').html(html); 
 				}
 				
@@ -121,10 +146,10 @@ $(document).ready(function(){
 		if(SelectAllLastpage){
 			 $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
 				data:'SelectAllLastpage='+SelectAllLastpage,
 				success:function(html){
-					$('#subcategory').html('<option value="">Sélectionner tout</option>');		
+					$('#subcategory').html('<option value="">Select All- last</option>');		
 					$('#displayresults').html(html); 
 				}
 				
@@ -139,31 +164,12 @@ $(document).ready(function(){
 				
 				
 	}
-	
-	
-		function SelectAllSubNextPage(CategoryID, SubCatLimit,ProductLimit, pageID) {
-		
-		var SubCatLimit=SubCatLimit;
-		var ProductLimit=ProductLimit;
-		var pageID=pageID;
-		var CategoryID=CategoryID;
-		if(SubCatLimit || ProductLimit || CategoryID){
-			 $.ajax({
-                type:'POST',
-                url:'ajaxData_fr.php',
-				data:{'category_SubSelectAll_ID':+CategoryID,'subCat_selectall_next':+SubCatLimit,'product_SubSelectAll_next':+ProductLimit, 'page_subSelectAll_id':+pageID},
-				success:function(html){
-					$('#subcategory').html('<option value="">Sélectionner tout</option>');		
-					$('#displayresults').html(html); 
-				}
-				
-				});
-				
-			
-		}
-	}
+
 	
 
+
+	
+	
 	
 	function AjaxCall(Cid) {
 	
@@ -171,14 +177,14 @@ $(document).ready(function(){
         if(CompanyID){
             $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
                 data:'company_id='+CompanyID,
                 success:function(html){
 				$('#displayresults').html(html);
                 }
             }); 
         }else{
-            $('#displayresults').html('empty!'); 
+            $('#displayresults').html('no data found'); 
        }
   
     
@@ -192,14 +198,16 @@ $(document).ready(function(){
         if(subcategoryID){
             $.ajax({
                 type:'POST',
-                url:'ajaxData_fr.php',
+                url:'ajaxData.php',
                 data:{'subcategory_id':+subcategoryID,'page_id':+pageID},
 			    success:function(html){
 				$('#displayresults').html(html);
                 }
             }); 
         }else{
-            $('#displayresults').html('empty!'); 
+            $('#displayresults').html('no data found'); 
         }
     
     }
+    
+	
