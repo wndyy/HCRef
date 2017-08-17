@@ -437,7 +437,7 @@ $rowCount = $query->num_rows;
 <script type="text/javascript" src="/etc/clientlibs/granite/jquery.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/utils.js"></script>
 <script type="text/javascript" src="/etc/designs/canada/clientlib-publish.js"></script>
-
+<script type="text/javascript" src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_21/js/wet-boew.min.js"></script>
 
 
 
