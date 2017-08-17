@@ -10,7 +10,7 @@
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
 
 <!-- added for accepted dropdown list start -->
-<script src="jquery.min.js"></script>
+<script src="./jquery.min.js"></script>
 <script src="./acceptedlist.js"></script>
 
 <!-- added for accepted dropdown list end-->
