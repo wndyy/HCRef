@@ -11,7 +11,7 @@
 <meta name="description" content="La Boîte à outils de l’expérience Web (BOEW) rassemble différents composants réutilisables et prêts-à-utiliser pour la conception et la mise à jour de sites Web innovateurs qui sont à la fois accessibles, conviviaux et interopérables. Tous ces composants réutilisables sont des logiciels libres mis à la disposition des ministères et des collectivités Web externes.">
 
 <!-- added for accepted dropdown list start -->
-<script src="jquery.min.js"></script>
+<script src="./jquery.min.js"></script>
 <script src="./acceptedlist_fr.js"></script>
 
 <!-- added for accepted dropdown list end-->
