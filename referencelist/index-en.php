@@ -410,7 +410,7 @@ $rowCount = $query->num_rows;
                         <a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
                     </div>
                     <div class="col-xs-6 col-md-2 text-right">
-                        <object type="image/svg+xml" tabindex="-1" role="img" data="/etc/designs/canada/wet-boew/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+                        <object type="image/svg+xml" tabindex="-1" role="img" data="./GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
                     </div>
                 </div>
             </div>
@@ -442,7 +442,7 @@ $rowCount = $query->num_rows;
 
 
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 
@@ -450,6 +450,6 @@ $rowCount = $query->num_rows;
 <script src="/etc/designs/canada/wet-boew/js/ie8-wet-boew2.min.js"></script>
 <![endif]-->
 
-<script src="/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+<script src="./GCWeb/js/theme.min.js"></script>
 </body>
 </html>
