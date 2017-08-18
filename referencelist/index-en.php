@@ -7,6 +7,7 @@
 <title>Materials and Non-Food Chemicals Reference</title>
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <meta name="Referer" content="no-referrer">
+<meta name="Referrer" content="no-referrer">
 <!-- Meta data -->
 <meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities">
 
