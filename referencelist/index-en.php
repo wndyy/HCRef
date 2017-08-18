@@ -153,7 +153,8 @@ $query = $db->query("SELECT * FROM Categories ORDER BY HeaderE ASC");
 //Count total number of rows
 $rowCount = $query->num_rows;
 ?>
-<select class="form-control" name="category" id="category">
+	<div style="text-align: center">
+<select class="form-control" name="category" id="category" style="width: 45%">
     <option value="">Select Category</option>
     <option value="SelectAll">Select All</option>
     
@@ -166,13 +167,13 @@ $rowCount = $query->num_rows;
         echo '<option value="">Categories are not available</option>';
     }
     ?>
-</select>
+		</select></div>
 </p>
 <p>
-
-<select class="form-control" name="subcategory" id="subcategory">
+<div style="text-align: center>
+<select class="form-control" name="subcategory" id="subcategory" style="width: 45%>
     <option value="">Select category first</option>
-</select>
+		    </select></div>
 
 </p>
 
@@ -427,7 +428,7 @@ $rowCount = $query->num_rows;
 
 
 
-<script type="text/javascript">_satellite.pageBottom();</script>
+<!--<script type="text/javascript">_satellite.pageBottom();</script>-->
 
 
 
@@ -444,7 +445,7 @@ $rowCount = $query->num_rows;
 
 <!--[if gte IE 9 | !IE ]><!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+<script type="text/javascript" src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_21/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
