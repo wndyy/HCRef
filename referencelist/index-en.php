@@ -153,7 +153,7 @@ $query = $db->query("SELECT * FROM Categories ORDER BY HeaderE ASC");
 //Count total number of rows
 $rowCount = $query->num_rows;
 ?>
-<select name="category" id="category">
+<select class="form-control" name="category" id="category">
     <option value="">Select Category</option>
     <option value="SelectAll">Select All</option>
     
@@ -170,7 +170,7 @@ $rowCount = $query->num_rows;
 </p>
 <p>
 
-<select name="subcategory" id="subcategory">
+<select class="form-control" name="subcategory" id="subcategory">
     <option value="">Select category first</option>
 </select>
 
