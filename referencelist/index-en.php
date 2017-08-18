@@ -153,7 +153,7 @@ $query = $db->query("SELECT * FROM Categories ORDER BY HeaderE ASC");
 //Count total number of rows
 $rowCount = $query->num_rows;
 ?>
-	<div style="text-align: center">
+<div style="text-align: center">
 <select class="form-control" name="category" id="category" style="width: 45%">
     <option value="">Select Category</option>
     <option value="SelectAll">Select All</option>
@@ -167,13 +167,15 @@ $rowCount = $query->num_rows;
         echo '<option value="">Categories are not available</option>';
     }
     ?>
-		</select></div>
+</select>
+</div>
 </p>
 <p>
-<div style="text-align: center>
-<select class="form-control" name="subcategory" id="subcategory" style="width: 45%>
+<div style="text-align: center">
+<select class="form-control" name="subcategory" id="subcategory" style="width: 45%">
     <option value="">Select category first</option>
-		    </select></div>
+</select>
+</div>
 
 </p>
 
