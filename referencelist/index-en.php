@@ -35,6 +35,7 @@
 <noscript><link rel="stylesheet" href="./wet-boew/css/noscript.min.css" /></noscript>
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 <script>dataLayer1 = [];</script>
+<script type="text/javascript" src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_21/js/wet-boew.min.js"></script>
 <!-- End Google Tag Manager -->
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -434,10 +435,10 @@ $rowCount = $query->num_rows;
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/granite/jquery.js"></script>
+<!--<script type="text/javascript" src="/etc/clientlibs/granite/jquery.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/utils.js"></script>
-<script type="text/javascript" src="/etc/designs/canada/clientlib-publish.js"></script>
-<script type="text/javascript" src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_21/js/wet-boew.min.js"></script>
+<script type="text/javascript" src="/etc/designs/canada/clientlib-publish.js"></script>-->
+
 
 
 
