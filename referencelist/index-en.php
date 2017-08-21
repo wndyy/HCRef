@@ -37,7 +37,7 @@
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 <script>dataLayer1 = [];</script>
 <!--<script type="text/javascript" src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/v4_0_21/js/wet-boew.min.js"></script>-->
-	<script type="text/javascript" src="./wet-boew/js/wet-boew.min.js"></script>
+	<!--<script type="text/javascript" src="./wet-boew/js/wet-boew.min.js"></script>-->
 <!-- End Google Tag Manager -->
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -449,7 +449,7 @@ $rowCount = $query->num_rows;
 
 <!--[if gte IE 9 | !IE ]><!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="./wet-boew/js/wet-boew.min.js"></script>
+<!--<script type="text/javascript" src="./wet-boew/js/wet-boew.min.js"></script>-->
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
