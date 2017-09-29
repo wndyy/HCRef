@@ -1,6 +1,6 @@
 <?php
 //update with GitHub database
-$config = parse_ini_file('./db.ini');
+$config = parse_ini_file('/etc/referencelist/db.ini');
 $db = new mysqli($config['hostname'], $config['username'], $config['password'],$config['dbname']);
 $db->set_charset("utf8");
 // Limit per page
