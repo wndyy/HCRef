@@ -128,7 +128,7 @@
 
 <div class="row"><div class="col-md-8">
 
-  <p><strong>Remarque:</strong>
+  <p><strong>Remarque :</strong>
                 Le 2 juillet 2014, le gouvernement du Canada a abrogé l'exigence de pré-enregistrement des matériaux de construction, des matériaux d'emballage et des produits chimiques non alimentaires utilisés dans les établissements de viande référencés par le gouvernement fédéral en modifiant les Règlements agréés par  l'Agence canadienne d'inspection des aliments (ACIA). Par conséquent l’ACIA n'a plus besoin de l'industrie pour pré-enregistrer  les matériaux de construction, les matériaux d'emballage, les produits chimiques non alimentaires et les vêtements de travail dans la liste de référence.</br></br>
             <a href="http://inspection.gc.ca/aliments/systemes-de-production-d-aliments-salubres/references-techniques/abrogation-des-exigences/fra/1425429397624/1425429398546">Information de l’ACIA sur l'abrogation des exigences relatives à l'enregistrement avant la mise en marché</a></br></br>
             <a href="http://inspection.gc.ca/aliments/systemes-de-production-d-aliments-salubres/references-techniques/lignes-directrices/fra/1412187967735/1412187968391"><i>Lignes directrices [de l’ACIA] concernant les matériaux de construction, les matériaux d'emballage et les produits chimiques non alimentaires à l'intention des établissements alimentaires</i></a></br>
