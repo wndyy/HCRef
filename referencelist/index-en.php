@@ -141,7 +141,7 @@
             <a href="http://inspection.gc.ca/active/scripts/fssa/reference/reference.asp?lang=e">Reference Listing of Accepted Construction Materials, Packaging Materials and Non-Food Chemical Products Database</a></p>
             <p>Any inquiries related to the current assessment of food packaging materials and food processing aids should be directed to:
             </br></br>
-           Food Packaging Materials & Incidental Additives Section</br>
+           Food Packaging Materials &amp; Incidental Additives Section</br>
                 Chemical Health Hazard Assessment Division</br></br>
                 Bureau of Chemical Safety</br>
                 Health Canada</br>
