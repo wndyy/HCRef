@@ -132,13 +132,11 @@
   <p><strong>Note:</strong>
                 On July 2, 2014 the Government of Canada repealed the requirement for pre-registration of construction materials, packaging materials and non-food chemicals used in federally registered meat establishments through changes to Regulations that are administered by the Canadian Food Inspection Agency (CFIA). As a result, the CFIA no longer requires industry to pre-register construction materials, packaging materials, non-food chemicals and working apparel in the Reference Listing.</br></br>
                 <a href="http://inspection.gc.ca/food/safe-food-production-systems/technical-references/repealing-requirements/eng/1425429397624/1425429398546">CFIA Information on repealing the requirements for pre-market registration</a></br></br>
-                CFIA’s <a href="http://inspection.gc.ca/food/safe-food-production-systems/technical-references/guidance/eng/1412187967735/1412187968391"><i>Guidance for Food Establishments Concerning Construction Materials and Packaging Materials and Non-Food Chemicals</i></a></br>
               </p>
-            <p>As of January 2018, the following reference listing has been made available through Canada.ca for reference purposes only. Historically, this reference listing was maintained by the CFIA. The last update to the listing was made on January 25, 2016.
+            <p>As of April 2018, the following reference listing has been made available through Canada.ca for reference purposes only. Historically, this reference listing was maintained by the CFIA. The last update to the listing was made on January 25, 2016.
                 </br></br>
             Since this database was not developed by Health Canada and is no longer being maintained or updated, it is the responsibility of users to verify the accuracy of the information with manufacturers.
-            </br> </br>
-            <a href="http://inspection.gc.ca/active/scripts/fssa/reference/reference.asp?lang=e">Reference Listing of Accepted Construction Materials, Packaging Materials and Non-Food Chemical Products Database</a></p>
+            </br></br>
             <p>Any inquiries related to the current assessment of food packaging materials and food processing aids should be directed to:
             </br></br>
            Food Packaging Materials &amp; Incidental Additives Section</br>
@@ -150,6 +148,8 @@
                 Ottawa, Ontario, K1A 0K9</br>
                 Canada</br>
                 Email: <a href="mailto:FPMIA-MEAAI@hc-sc.gc.ca">FPMIA-MEAAI@hc-sc.gc.ca</a></p>
+	<p><b>Reference Listing of Accepted Construction Materials, Packaging Materials and Non-Food Chemical Products Database</b></br></br>
+		Search:</p>
 
 <p>&nbsp;</p>
 <!-- beginning of Dropdown list scripts -->
