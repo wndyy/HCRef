@@ -131,13 +131,11 @@
   <p><strong>Remarque :</strong>
                 Le 2 juillet 2014, le gouvernement du Canada a abrogé l'exigence de pré-enregistrement des matériaux de construction, des matériaux d'emballage et des produits chimiques non alimentaires utilisés dans les établissements de viande référencés par le gouvernement fédéral en modifiant les Règlements agréés par  l'Agence canadienne d'inspection des aliments (ACIA). Par conséquent l’ACIA n'a plus besoin de l'industrie pour pré-enregistrer  les matériaux de construction, les matériaux d'emballage, les produits chimiques non alimentaires et les vêtements de travail dans la liste de référence.</br></br>
             <a href="http://inspection.gc.ca/aliments/systemes-de-production-d-aliments-salubres/references-techniques/abrogation-des-exigences/fra/1425429397624/1425429398546">Information de l’ACIA sur l'abrogation des exigences relatives à l'enregistrement avant la mise en marché</a></br></br>
-            <a href="http://inspection.gc.ca/aliments/systemes-de-production-d-aliments-salubres/references-techniques/lignes-directrices/fra/1412187967735/1412187968391"><i>Lignes directrices [de l’ACIA] concernant les matériaux de construction, les matériaux d'emballage et les produits chimiques non alimentaires à l'intention des établissements alimentaires</i></a></br>
             </p>
-            <p>À partir du mois de janvier 2018, la liste de référence sera disponible sur le site de Canada.ca à des fins de référencement uniquement.  Historiquement, cette liste de référence a été maintenue par l'ACIA. La dernière mise à jour de la liste a été faite le 25 janvier 2016.
+            <p>À partir du mois d'avril 2018, la liste de référence sera disponible sur le site de Canada.ca à des fins de référencement uniquement.  Historiquement, cette liste de référence a été maintenue par l'ACIA. La dernière mise à jour de la liste a été faite le 25 janvier 2016.
                 </br></br>
                 Étant donné que cette base de données n’a pas été développée par Santé Canada et qu’elle n'est plus entretenue ni mise à jour, il incombe aux utilisateurs de vérifier l'exactitude de l'information auprès des fabricants.
             </br></br>
-            <a href="http://inspection.gc.ca/active/scripts/fssa/reference/reference.asp?lang=f">Base de données de la liste de référence pour les matériaux de construction, les matériaux d'emballage, et les produits chimiques non alimentaires acceptés</a>
             </p>
             <p>Toute question relative à l'évaluation actuelle des matériaux d'emballage alimentaire, additifs indirects et des agents technologiques alimentaires devrait être adressée à:
                 </br></br>
@@ -150,6 +148,8 @@
                 Ottawa (Ontario), K1A 0K9<br>
                 Canada<br>
                 Courriel: <a href="mailto:FPMIA-MEAAI@hc-sc.gc.ca">FPMIA-MEAAI@hc-sc.gc.ca </a></p>
+	<p><b>Base de données de la liste de référence pour les matériaux de construction, les matériaux d'emballage, et les produits chimiques non alimentaires acceptés</b></br></br>
+		Rechercher: </p>
 <p>&nbsp;</p>
 <!-- beginning of Dropdown list scripts -->
 
